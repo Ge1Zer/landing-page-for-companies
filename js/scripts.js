@@ -25,91 +25,21 @@ function(){
 	}
 });
 
+let e=false;
+$("#bu, a").on("click",function() {
+	if(e){
+		$("#bu").removeClass('close-bu')
+		$("#bu").addClass('burger')
+		$(".dise").css({'display': "none"})
 
+			e=!e
+		
+	}else{
+		$("#bu").removeClass('burger')
+		$("#bu").addClass('close-bu')
+		$(".dise").css({'display': "block"})
 
-//  var itemOuterWidth = $(this).outerWidth(); // узнаем ширину текущего элемента (width + padding)
-//   var itemOffsetLeft = $(this).offset().left; // узнаем значение отступа слева в контейнере у текущего элемента
-//   var containerScrollLeft = $(".cont-item").scrollLeft(); // узнаем текущее значение скролла
+		e=!e
+	}
 
-//   var positionCetner = (containerOuterWidth / 2 - itemOuterWidth / 2); // рассчитываем позицию центра
-
-//   var scrollLeftUpd = containerScrollLeft + itemOffsetLeft - positionCetner; // рассчитываем положение скролла относительно разницы отступа элемента и центра контейнера
-
-//   // анимируем
-//   $('.cont-item').animate({
-//     scrollLeft: scrollLeftUpd
-//   }, 400);
-// });
-
-	// $('.dot-1').on('click', function(){
-	// 		$('.cont-item').animate({scrollLeft: $(".cont-item:nth-child(1)").position()})
-	// 		console.log( $(".cont-item:nth-child(1)").position())
-	// })
-
-	// $('.dot-2').on('click', function(){
-	// 		console.log( '3')
-	// 		$('.cont-item').animate({scrollTop: $(".cont-item:nth-child(3)").position()})
-	// 		console.log( $(".cont-item:nth-child(2)").position())
-	// })
-
-	// $('.dot-3').on('click', function(){
-	// 	console.log( '4')
-	// 		$('.cont-item').animate({scrollLeft: $(".cont-item:nth-child(6)").position()})
-	// 		console.log( $(".cont-item:nth-child(6)").position())
-	// })
-
-
-
-			
-			// height = self.offset().left + self.width();
-			// if ($(document).scrollLeft() + windowHWidth >= width) {
-			// 	self.addClass('col')
-
-		// let r=$('.team-member-items').scrollLeft()
-		// if(r<=widthPlace){
-		// 	$('.indi-dot div:nth-child(1)').addClass('col')
-		// }else if(r<=2*widthPlace){
-		// 	$('.indi-dot div:nth-child(1)').removeClass('col')
-		// 	$('.indi-dot div:nth-child(2)').addClass('col')
-		// }else if(r<=3*widthPlace){
-		// 	$('.indi-dot div:nth-child(2)').removeClass('col')
-		// 	$('.indi-dot div:nth-child(3)').addClass('col')
-		// }
-
-	// 		let widthPlace = $('.team-member-items').width();
-	
- 
-	// $('.team-member-items').on('scroll', function() {
-	// 		$('.team-member-items div:nth-child(3)').each(function() {
-	// 				let self = $(this),
-	// 				height = self.offset().left - self.width()-7.8;
-	// 				console.log(height)
-
-	// 				if(height>0){
-	// 						$('.indi-dot div:nth-child(1)').addClass('col')
-	// 				}else if(height<0){
-	// 					$('.indi-dot div:nth-child(1)').removeClass('col')
-	// 				}		
-	// 		})
-
-	// 		$('.team-member-items div:nth-child(6)').each(function() {
-	// 				let self = $(this),
-	// 				height = self.offset().left - self.width()-7.8;
-	// 				if(height>0){
-	// 						$('.indi-dot div:nth-child(2)').addClass('col')
-	// 				}	else if(height<0){
-	// 						$('.indi-dot div:nth-child(2)').removeClass('col')
-	// 				}		
-	// 		})
-
-	// 		$('.team-member-items div:nth-child(9)').each(function() {
-	// 				let self = $(this),
-	// 				height = self.offset().left - self.width()-7.8;
-	// 				if(height>0){
-							
-	// 						$('.indi-dot div:nth-child(3)').addClass('col')
-	// 				}else if(height<0){
-	// 					$('.indi-dot div:nth-child(3)').removeClass('col')
-	// 				}		
-	// 			})
-	// })})
+});
