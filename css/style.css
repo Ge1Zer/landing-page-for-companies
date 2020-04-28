@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 .search {
   width: 6px;
   height: 6px;
-  background: url("./../../img/header/@3x.png") 50% 50% no-repeat;
+  background: url("https://geizer6991.github.io/landing-page-for-companies/img/header/@3x.png") 50% 50% no-repeat;
   background-size: 6px 6px;
 }
 
@@ -902,27 +902,27 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
 }
 .contact-team-item div:nth-child(1):hover {
-  background: #3949ab url("./../img/content/team/face-on.png") 45% 50% no-repeat;
+  background: #3949ab url("../../img/content/team/face-on.png") 45% 50% no-repeat;
   background-size: 7px 12px;
 }
 .contact-team-item div:nth-child(2):hover {
-  background: #4AB4F5 url("./../img/content/team/twit-on.jpg") 45% 50% no-repeat;
+  background: #4AB4F5 url("../../img/content/team/twit-on.jpg") 45% 50% no-repeat;
   background-size: 30px 30px;
 }
 .contact-team-item .item-net-1 {
-  background: #f0f1f1 url("./../img/content/team/face-off.png") 45% 50% no-repeat;
+  background: #f0f1f1 url("../../img/content/team/face-off.png") 45% 50% no-repeat;
   background-size: 7px 12px;
 }
 .contact-team-item .item-net-2 {
-  background: #f0f1f1 url("./../img/content/team/pti.png") 43% 50% no-repeat;
+  background: #f0f1f1 url("../../img/content/team/pti.png") 43% 50% no-repeat;
   background-size: 10px 9px;
 }
 .contact-team-item .item-net-3 {
-  background: #f0f1f1 url("./../img/content/team/mess.png") 43% 50% no-repeat;
+  background: #f0f1f1 url("../../img/content/team/mess.png") 43% 50% no-repeat;
   background-size: 10px 10px;
 }
 .contact-team-item .item-net-4 {
-  background: #f0f1f1 url("./../img/content/team/bal.png") 43% 50% no-repeat;
+  background: #f0f1f1 url("../../img/content/team/bal.png") 43% 50% no-repeat;
   background-size: 10px 10px;
 }
 
@@ -1211,17 +1211,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .img-cont-1 {
-  background: url("./../../img/content/contact/placeholder@3x.png") 50% 50% no-repeat;
+  background: url("https://geizer6991.github.io/landing-page-for-companies/img/content/contact/placeholder@3x.png") 50% 50% no-repeat;
   background-size: 15px 21px;
 }
 
 .img-cont-2 {
-  background: url("./../../img/content/contact/phone-call@3x.png") 50% 50% no-repeat;
+  background: url("https://geizer6991.github.io/landing-page-for-companies/img/content/contact/phone-call@3x.png") 50% 50% no-repeat;
   background-size: 21px 21px;
 }
 
 .img-cont-3 {
-  background: url("./../../img/content/contact/mail@3x.png") 50% 50% no-repeat;
+  background: url("https://geizer6991.github.io/landing-page-for-companies/img/content/contact/mail@3x.png") 50% 50% no-repeat;
   background-size: 21px 15px;
 }
 
