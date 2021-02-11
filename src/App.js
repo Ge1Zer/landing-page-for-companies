@@ -30,5 +30,4 @@ function App() {
     </Styled>
   );
 }
-
 export default App;
